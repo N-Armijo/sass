@@ -3,3 +3,6 @@
 @mixin padding-4-sides ($space-v, $space-h) {
   padding: $space-v $space-h;
 }
+@mixin border-bottom-section($border-section) {
+  border-bottom: $border-section;
+}

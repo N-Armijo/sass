@@ -16,6 +16,7 @@ html, body {
 
 .header {
   padding: 2rem 5rem;
+  border-bottom: 1px solid rgba(221, 221, 221, 0.8666666667);
 }
 
 .h-container {
@@ -66,7 +67,7 @@ html, body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  height: 5rem;
+  height: 55px;
 }
 .logo__img {
   height: 100%;
@@ -76,13 +77,9 @@ html, body {
 .logo__title {
   font-weight: 700;
 }
-.logologo__btn {
-  width: 16px;
-  height: 16px;
-}
 
 .logo--small {
-  height: 3.5rem;
+  height: 40px;
 }
 
 .v-post {
