@@ -122,15 +122,19 @@ html, body {
 }
 .suscripcion__main {
   width: 60%;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .suscripcion__title {
-  margin-top: 3rem;
+  margin-top: 1rem;
   font-size: 2rem;
   color: white;
 }
 .suscripcion__aside {
   align-self: self-end;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 .v-post {
