@@ -11,4 +11,7 @@ input[type="date"]
   border: 1px solid $gray;
   border-radius: 5px;
   margin: 0.5rem 0;
+  &.input--wide{
+    width: 100%;
+  }
 }

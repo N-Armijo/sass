@@ -51,6 +51,11 @@ html, body {
   padding: 2rem 5rem;
 }
 
+.suscripcion {
+  height: 12rem;
+  margin: 5rem;
+}
+
 .form {
   padding: 3rem 1.5rem;
   margin: auto;
@@ -107,6 +112,25 @@ html, body {
   font-weight: 700;
   font-size: 24px;
   padding-left: 1rem;
+}
+
+.suscripcion {
+  background-color: #02A724;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.suscripcion__main {
+  width: 60%;
+}
+.suscripcion__title {
+  margin-top: 3rem;
+  font-size: 2rem;
+  color: white;
+}
+.suscripcion__aside {
+  align-self: self-end;
+  padding-bottom: 2rem;
 }
 
 .v-post {
@@ -279,6 +303,14 @@ html, body {
   color: white;
   font-weight: 700;
 }
+.btn--suscripcion {
+  height: 3rem;
+  width: 15rem;
+  background-color: rgba(221, 221, 221, 0.8666666667);
+  color: white;
+  font-weight: 700;
+  font-size: 25px;
+}
 .btn__text--bold {
   font-weight: 700;
   color: #000000;
@@ -296,6 +328,14 @@ input[type=date] {
   border: 1px solid rgba(221, 221, 221, 0.8666666667);
   border-radius: 5px;
   margin: 0.5rem 0;
+}
+input[type=text].input--wide,
+input[type=url].input--wide,
+input[type=password].input--wide,
+input[type=email].input--wide,
+input[type=number].input--wide,
+input[type=date].input--wide {
+  width: 100%;
 }
 
 .user {
