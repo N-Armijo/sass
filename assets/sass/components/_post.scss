@@ -90,26 +90,26 @@
   }
   &__title{
     font-weight: 700;
-  
+  }
 }
 
-// .post-full-screen {
-//   width: 100%;
-//   margin-top: 1.5rem;
-//   background-color: $background-post;
-//   display: flex;
-//   flex-direction: column;
-//   row-gap: 2rem;
-//   border-radius: $border-rounded;
-//   @include padding-4-sides(1.5rem, 1.5rem);
+.post-full-screen {
+  width: 100%;
+  margin-top: 1.5rem;
+  background-color: $background-post;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  border-radius: $border-rounded;
+  @include padding-4-sides(1.5rem, 1.5rem);
   
-//   &__img { // post-full-screen__img
-//     display: inline-block;
-//     justify-self: center;
-//     border-radius: $border-rounded;
-//     margin-inline: auto;
-//     width: 80%;
-//   }
+  &__img { // post-full-screen__img
+    display: inline-block;
+    justify-self: center;
+    border-radius: $border-rounded;
+    margin-inline: auto;
+    width: 80%;
+  }
 }
 .section{
   &__title{

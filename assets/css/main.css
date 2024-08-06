@@ -15,10 +15,6 @@ footer {
   border-top: solid 2px #CCCCCC;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  margin-bottom: 1.5rem;
-}
-
 html, body {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
@@ -74,6 +70,27 @@ html, body {
 .footer__text {
   font-weight: 400;
   font-size: 20px;
+}
+
+.nav {
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav__text {
+  color: #000000;
+  font-weight: 700;
+  font-size: 2rem;
+}
+.nav__links {
+  list-style: none;
+  display: flex;
+}
+.nav__link {
+  padding-left: 1.875rem;
+  text-decoration: none;
+  color: rgba(41, 44, 51, 0.8941176471);
 }
 
 .logo {
@@ -145,6 +162,24 @@ html, body {
   font-weight: 700;
 }
 
+.post-full-screen {
+  width: 100%;
+  margin-top: 1.5rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  border-radius: 0.5rem;
+  padding: 1.5rem 1.5rem;
+}
+.post-full-screen__img {
+  display: inline-block;
+  justify-self: center;
+  border-radius: 0.5rem;
+  margin-inline: auto;
+  width: 80%;
+}
+
 .section__title {
   margin: 0 4rem;
   width: 100%;
@@ -170,7 +205,7 @@ html, body {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 .categoria:not(:first-of-type) {
   margin-top: 2rem;
@@ -290,6 +325,10 @@ input[type=date] {
 
 html, body {
   color: #000000;
+}
+
+a {
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=main.css.map */
