@@ -1,3 +1,11 @@
 .footer {
-  @include padding-4-sides($vertical-space-full-height-container, $horizontal-space-full-width)
+  // @include padding-4-sides($vertical-space-full-height-container, $horizontal-space-full-width)
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 5rem;
+  &__text{
+    font-weight: 400;
+    font-size: 20px;
+  }
 }

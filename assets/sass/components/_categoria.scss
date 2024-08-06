@@ -1,13 +1,21 @@
 .categoria {
-  border-radius: $border-rounded;
-  height: 5rem;
+  // border-radius: $border-rounded;
+  // height: 5rem;
+  // display: flex;
+  // flex-direction: row;
+  // align-items: center;
+  // justify-content: space-between;
+  border-radius: 0.5rem;
+  height: 6rem;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
+  margin-top: 4rem;
 
   &:not(:first-of-type) {
-    margin-top: 1rem;
+    margin-top: 2rem;
+    // margin-top: 1rem;
   }
 
   &__img {
@@ -20,7 +28,7 @@
     font-size: 2rem;
     margin-right: 1rem;
     text-align: right;
-    color: white;
+    color: #ffffff;
     font-weight: 700;
   }
 
@@ -46,5 +54,10 @@
 
   &--bootstrap {
     background-color: $purple
+  }
+  &__text--black{
+    color:#171717 ;
+    font-weight: 400;
+    font-size: 20px;
   }
 }
