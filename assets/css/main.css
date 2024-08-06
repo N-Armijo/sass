@@ -202,6 +202,7 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 1rem;
 }
 .btn--no-border {
   border-width: 0;
@@ -215,6 +216,12 @@ html, body {
 }
 .btn--google {
   background-color: white;
+}
+.btn--login {
+  height: 3rem;
+  background-color: #02A724;
+  color: white;
+  font-weight: 700;
 }
 .btn__text--bold {
   font-weight: 700;
@@ -245,20 +252,27 @@ input[type=date] {
 }
 .user__img {
   border-radius: 50%;
-  height: 100%;
+  height: 60px;
+  width: 60px;
+  margin-right: 1rem;
+}
+.user__img--small {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
   margin-right: 1rem;
 }
 .user__text {
   font-weight: 500;
+  font-size: 1.5rem;
+}
+.user__text--small {
+  font-size: 1rem;
 }
 .user__date {
   font-weight: 400;
   font-size: small;
   margin-left: 2rem;
-}
-
-.user--small {
-  height: 2rem;
 }
 
 html, body {

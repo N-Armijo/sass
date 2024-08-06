@@ -7,6 +7,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 1rem;
   &--no-border{
     border-width: 0;
   }
@@ -20,6 +21,12 @@
   }
   &--google{
     background-color: $background-post;
+  }
+  &--login{
+    height: 3rem;
+    background-color: $bright-green;
+    color: $background-post;
+    font-weight: 700;
   }
   &__text--bold{
     font-weight: 700;
