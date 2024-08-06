@@ -36,7 +36,7 @@ html, body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 5rem;
+  gap: 1rem;
   width: 60%;
   padding-top: 1rem;
 }
@@ -48,7 +48,6 @@ html, body {
 }
 
 .section {
-  border-top: solid 2px #CCCCCC;
   padding: 2rem 5rem;
 }
 
@@ -111,6 +110,7 @@ html, body {
 }
 
 .v-post {
+  margin: 1rem;
   display: flex;
   flex-direction: column;
   width: 60%;
@@ -165,7 +165,7 @@ html, body {
 .post-full-screen {
   width: 100%;
   margin-top: 1.5rem;
-  background-color: white;
+  background-color: rgba(221, 221, 221, 0.8666666667);
   display: flex;
   flex-direction: column;
   row-gap: 2rem;
@@ -184,6 +184,9 @@ html, body {
   margin: 0 4rem;
   width: 100%;
   font-size: 28px;
+}
+.section--with-border {
+  border-top: solid 2px #CCCCCC;
 }
 
 .aside-container__title {
@@ -318,6 +321,7 @@ input[type=date] {
 .user__text {
   font-weight: 500;
   font-size: 1.5rem;
+  margin-right: 1rem;
 }
 .user__text--small {
   font-size: 1rem;
